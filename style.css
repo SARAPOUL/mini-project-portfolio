@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sriracha', cursive;
+    color: #47167d;
+}
+
+.page-header {
+    margin-left: 8px;
+}
+
+.navbar {
+    justify-content: flex-end;
+    list-style-type: none;
+    overflow: hidden;
+    background-image: linear-gradient(146deg, #7900ff, #ff7978);
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    align-content: center;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 8px;
+
+}
+
+.nanavbar li a:hover {
+    background-color: #111;
+}
+
+.about_me {
+    background-color: rgb(239, 239, 239);
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about_me_body {
+    align-self: center;
+}
+
+.certification {
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project {
+    background-color: rgb(239, 239, 239);
+}
+
+.about_me>div>div>h1 {
+    font-size: 6rem;
+    background-image: linear-gradient(146deg, #7900ff, #ff7978);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.education,
+.project,
+.skill {
+    padding: 3rem;
+}
+
+.head-education h1 {
+    font-size: 32px
+}
+
+.body-education{
+
+}
+.body-education .row {
+    align-items: center;
+    min-height: 350px;
+}
+
+
+.certification h1 {
+    font-size: 36px;
+}
+
+.language,
+.framework {
+
+    width: 50%;
+}
+
+
+.body-skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.head-skill h1,
+.head-project h1,
+.head-contact h1,
+.certification h1 {
+    font-size: 32px
+}
+
+.logo-skill {
+    height: 50px;
+    /* width: 50px; */
+}
+
+.btn-my-theme {
+    background-image: linear-gradient(146deg, #7900ff, #ff7978);
+    color: white !important;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
